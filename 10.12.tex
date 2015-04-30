@@ -1,2 +1,7 @@
 
 { \bf 10.12 }
+X_i \sim  EXP(\theta ,\eta), \text{show} \,X_{1:n} \,\text{and}\, \bar X \,\text{are jointly sufficient.}\\
+f(x;\theta ,\eta )=\prod_{i=1}^{n} (1/\theta )e^{-(x_{i}-\eta )/\theta }*1\text{\{} {x_{i}>\eta }\text{}\} \\
+=(1/\theta ^n)e^{-(1/\theta )\sum_{i=1}^{n} (X_{i}-\eta )}*1 \text{\{} {X_{1:n}>\eta }\text{}\}\\
+=(1/\theta ^n)e^{-n \bar X/\theta +n\eta /\theta } *1\text{\{} {X_{1:n}>\eta }{}\}\\
+\text{Therefore, by the factorization theorem we know that} X_{1:n} \,\text {and} \,\bar X \text{are jointly sufficient.}
